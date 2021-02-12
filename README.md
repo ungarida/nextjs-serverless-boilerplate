@@ -21,4 +21,4 @@ First of all, this boilerplate didn't start from scratch but from [NextJS with-t
 
 ### Workflow
 
-The project is leveraging [GitHub Actions](https://docs.github.com/en/actions) to organize development workflow.
+The project is leveraging [GitHub Actions](https://docs.github.com/en/actions) to organize development workflow. It is inspired by [next-serverless-github-actions](https://github.com/dabit3/next-serverless-github-actions).
