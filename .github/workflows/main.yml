@@ -51,7 +51,7 @@ jobs:
       - run: yarn test
   deploy:
     name: Deploy on AWS
-    needs: [test]
+    needs: [test, lint]
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2.3.4
