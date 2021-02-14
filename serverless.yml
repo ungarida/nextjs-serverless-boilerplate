@@ -1,2 +1,8 @@
-nextApp:
-  component: '@sls-next/serverless-component@1.18.0'
+frontendNextWebApp:
+  component: '@sls-next/serverless-component@1.19.0-alpha.31'
+  inputs:
+    bucketName: nextjs-serverless-boilerplate-bucket
+    name:
+      defaultLambda: ${opt:stage}-DefaultLambda
+      apiLambda: ${opt:stage}-ApiLambda
+      imageLambda: ${opt:stage}-ImageLambda
